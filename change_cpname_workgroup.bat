@@ -15,7 +15,7 @@ wmic computersystem where name="%computername%" call joindomainorworkgroup name=
 echo;
 
 echo ReturnValueが0でない場合、またはインスタンスがどうのと言われる場合は失敗です。管理者権限で実行し直して下さい。
-echo 再起動後に再度実行が必要な場合もあります。何にしろ、ReturnValue 0が出ないなら再実行です。
+echo 再起動後に再度実行が必要な場合もあります。何にしろ、ReturnValue = 0が出ないなら再実行です。
 echo;
 
 echo 現在のPC名は
@@ -44,7 +44,7 @@ echo 処理は終了しました。
 echo ReturnValueが0でない場合、またはインスタンスがどうのと言われる場合は失敗です。管理者権限で実行し直して下さい。
 echo;
 
-echo 再起動後に再度実行が必要な場合もあります。何にしろ、ReturnValue 0が出ないなら再実行です。
+echo 再起動後に再度実行が必要な場合もあります。何にしろ、ReturnValue = 0が出ないなら再実行です。
 echo 設定反映には必ず再起動処理が必要です。
 echo この後、再起動処理を入れていますし、バッチを途中終了する場合は再起動して下さい。
 echo;

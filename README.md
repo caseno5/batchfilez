@@ -1,1 +1,2 @@
 change_pcname_workgroup.bat PC名とワークグループを変更。PC名は任意、ワークグループ名は一意。
+win_firewall_googleonly　windows firewallを使ってgoogleのみ接続できるようにする。
